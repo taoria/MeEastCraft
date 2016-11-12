@@ -19,7 +19,7 @@ public class MecGuiHandler implements IGuiHandler {
 
     @Override
     public Object getClientGuiElement(int ID, EntityPlayer player, World world, int x, int y, int z) {
-        if(ID==MOD_GUI_ID_RECIPE) return new GUI_E_Recipe();
+        if(ID==MOD_GUI_ID_RECIPE) return new GUI_E_Recipe("baseERecipe");
         return null;
     }
 
