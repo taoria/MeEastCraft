@@ -1,3 +1,12 @@
 #
 item.baseERecipe.name=简单的丹方
 itemGroup.MEC=膜法
+erecipe.baseErecipe.contain
+gua.name.qian=乾
+gua.name.dui=兑
+gua.name.li=离
+gua.name.zhen=震
+gua.name.xun=巽
+gua.name.kan=坎
+gua.name.gen=艮
+gua.name.kun=坤

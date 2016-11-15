@@ -13,11 +13,9 @@ public class MecCreativeBar  extends CreativeTabs {
     public MecCreativeBar(String lable) {
         super(lable);
     }
-
     @Override
     @SideOnly(Side.CLIENT)
     public Item getTabIconItem() {
-
         return MECItem.baseERecipe;
     }
 }

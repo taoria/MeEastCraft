@@ -2,6 +2,7 @@ package com.taoria.mec.core;
 
 
 import com.taoria.mec.core.Entity.MecGuiHandler;
+import com.taoria.mec.core.boc.Trigrams;
 import com.taoria.mec.core.item.MECItem;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.Instance;
@@ -26,6 +27,7 @@ public class MeEastCraft {
     public static  MeEastCraft instance = new MeEastCraft();
     @EventHandler
     public void preInit(FMLPreInitializationEvent event){
+        Trigrams.Init();
         if(MeEastCraft.instance.equals(this)){
             System.out.println("same instance of minecraft mod");
         }else{
@@ -37,6 +39,7 @@ public class MeEastCraft {
     }
     @EventHandler
     public void init(FMLInitializationEvent event){
+
 
     }
     @EventHandler

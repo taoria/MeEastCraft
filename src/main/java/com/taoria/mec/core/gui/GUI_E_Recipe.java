@@ -1,5 +1,6 @@
 package com.taoria.mec.core.gui;
 
+import com.taoria.mec.core.boc.Trigrams;
 import jdk.nashorn.internal.parser.Scanner;
 import net.minecraft.client.gui.FontRenderer;
 import net.minecraft.client.gui.GuiButton;
@@ -27,7 +28,8 @@ public class GUI_E_Recipe extends GuiScreen{
         drawContent();
         super.drawScreen(mouseX, mouseY, partialTicks);
     }
-    private String info="default info";
+    private String info = "";
+
     private String recipeName;
     @Override
     public boolean doesGuiPauseGame() {
@@ -36,6 +38,7 @@ public class GUI_E_Recipe extends GuiScreen{
     @Override
     public void initGui() {
         LoadString();
+        info=new Trigrams("111").getTrigramsName();
         //height=100;
         //width =100;
         this.fontRendererObj.FONT_HEIGHT=16;
