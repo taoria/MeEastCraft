@@ -1,6 +1,8 @@
 package com.taoria.mec.core.gui;
 
 import com.taoria.mec.core.boc.Trigrams;
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
 import jdk.nashorn.internal.parser.Scanner;
 import net.minecraft.client.gui.FontRenderer;
 import net.minecraft.client.gui.GuiButton;
@@ -12,6 +14,7 @@ import java.awt.*;
 /**
  * Created by Administrator on 2016/11/6.
  */
+@SideOnly(Side.CLIENT)
 public class GUI_E_Recipe extends GuiScreen{
     public GUI_E_Recipe(String recipeName){
         this.recipeName= recipeName;

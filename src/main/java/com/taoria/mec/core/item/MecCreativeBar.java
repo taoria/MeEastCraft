@@ -16,6 +16,6 @@ public class MecCreativeBar  extends CreativeTabs {
     @Override
     @SideOnly(Side.CLIENT)
     public Item getTabIconItem() {
-        return MECItem.baseERecipe;
+        return ItemInitializer.baseERecipe;
     }
 }

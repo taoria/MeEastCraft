@@ -2,12 +2,6 @@ package com.taoria.mec.core.item;
 
 import com.taoria.mec.core.Entity.MecGuiHandler;
 import com.taoria.mec.core.MeEastCraft;
-import com.taoria.mec.core.gui.GUI_E_Recipe;
-import cpw.mods.fml.relauncher.SideOnly;
-import net.minecraft.client.Minecraft;
-import net.minecraft.client.entity.EntityPlayerSP;
-import net.minecraft.client.gui.GuiScreenBook;
-import net.minecraft.client.main.Main;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemWritableBook;

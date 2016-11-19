@@ -1,4 +1,4 @@
-package com.taoria.lib.GUI;
+package com.taoria.lib.gui;
 
 import net.minecraft.client.gui.GuiButton;
 import net.minecraft.client.gui.GuiScreen;
@@ -27,7 +27,6 @@ public class TGuiScreen extends GuiScreen {
         if(o==null) return ;
         this.buttonList.remove(o);
     }
-
     @Override
     public void initGui() {
         super.initGui();

@@ -12,7 +12,7 @@ import net.minecraft.item.Item;
 /**
  * Created by Administrator on 2016/11/4.
  */
-public class InitInitializer {
+public class ItemInitializer {
     public static Item baseERecipe;
     public static void Init(FMLPreInitializationEvent event){
         //CreativeTabs
