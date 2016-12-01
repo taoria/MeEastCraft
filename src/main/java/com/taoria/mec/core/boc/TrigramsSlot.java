@@ -8,6 +8,7 @@ import net.minecraft.util.IIcon;
  * Created by Administrator on 2016/11/18.
  */
 public class TrigramsSlot extends SingleItemSlot{
+    public Trigrams trigram = new Trigrams("000");
     public TrigramsSlot(IInventory inventory, int index, int xPosition, int yPosition) {
         super(inventory, index, xPosition, yPosition);
     }

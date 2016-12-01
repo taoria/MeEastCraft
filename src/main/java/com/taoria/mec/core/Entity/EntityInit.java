@@ -8,7 +8,7 @@ import cpw.mods.fml.common.registry.GameRegistry;
 /**
  * Created by Administrator on 2016/11/19.
  */
-public class EntityInitializer {
+public class EntityInit {
     public static void Init(FMLPreInitializationEvent event){
         //CreativeTabs
 // base E recipe
